@@ -22,4 +22,4 @@ renamed_evictions AS (
     FROM raw_evictions
 )
 
-SELECT * FROM renamed_evictions
+SELECT DISTINCT * FROM renamed_evictions
