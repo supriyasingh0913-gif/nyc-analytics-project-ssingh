@@ -21,4 +21,4 @@ renamed_311 AS (
     FROM raw_311
 )
 
-SELECT * FROM renamed_311
+SELECT DISTINCT * FROM renamed_311
